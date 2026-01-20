@@ -1,3 +1,14 @@
+.system{
+    margin: 0 auto;
+}
 .inter-font {
     font-family: "Inter", sans-serif;
+}
+.style-wave{
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.nav-button{
+
 }

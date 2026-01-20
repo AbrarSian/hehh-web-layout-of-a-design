@@ -13,23 +13,25 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body class="inter-font">
-    <nav class="nav-section">
+<body class="inter-font system">
+    <nav class="nav-section system">
             <section class="flex justify-around items-center bg-[#1A0B2E]">
                 <div>
-                    <h1 class="text-[#FFFFFF]">Tech<span class="text-wave">Wave</span></h1>
+                    <h1 class="text-[#FFFFFF] text-[50px] font-bold">Tech<span class="style-wave">Wave</span></h1>
                 </div>
-                <div class="mid-btn">
+                <div class="flex gap-[30px] text-[#FFFFFF]">
                     <p>About</p>
                     <p>Episodes</p>
                     <p>Host</p>
                 </div>
                 <div>
-                    <button class="nav-button">Subscribe <i class="fa-solid fa-arrow-right-long"></i></button>
+                    <button class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] text-white px-5 py-3 rounded-[40px] w-full">Subscribe <i class="fa-solid fa-arrow-right-long"></i></button>
                 </div>
-                <span class="hamburger"></span>
+                <span class="hamburger hidden mr-5"></span>
             </section>
-        </nav>
+    </nav>
+    
 </body>
 </html>
