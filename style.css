@@ -9,6 +9,38 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.nav-button{
+@keyframes tooltip {
+    from {
+        top: -200px;
+        opacity: 0;
+    }
 
+    to {
+        top: 70px;
+        opacity: 1;
+    }
+}
+
+@keyframes in {
+    from {
+        right: 500px;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes right-in {
+    from {
+        left: 500px;
+        opacity: 0;
+    }
+
+    to {
+        left: 00000;
+        opacity: 1;
+    }
 }
